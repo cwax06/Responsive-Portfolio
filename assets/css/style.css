@@ -107,6 +107,9 @@ body {
 	text-align: center;
 	background: #666;
 	border-top: 8px solid #4aaaa5;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
   }
   
   /* sidebar */
@@ -282,6 +285,9 @@ body {
 	.auth-image {
 		width: 50%;
 	}
+	.footer {
+		position: auto;
+	}
 }
 
 @media only screen and (max-width: 640px) {
@@ -307,5 +313,8 @@ body {
 		width: 30%;
 		padding-left: 0;
 		margin-left: 0;
+	}
+	.footer {
+		float: auto;
 	}
 }
